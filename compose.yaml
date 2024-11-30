@@ -1,0 +1,6 @@
+services:
+  img:
+    build: .
+    container_name: om-container
+    ports:
+      - "7000:7000"
